@@ -1,4 +1,4 @@
-package cn.ox0a.algorithm;
+package cn.ox0a.algorithm.search;
 
 import cn.ox0a.algorithm.base.ISearchAlgorithm;
 import com.sun.istack.internal.NotNull;
@@ -17,6 +17,7 @@ public class BinarySearch<V extends Comparable<? super V>> implements ISearchAlg
      * @param target target
      * @return index of target in data, -1 if absent.
      */
+    @Override
     public int find(@NotNull V[] data, @NotNull V target) {
         if(data.length == 0){
             return -1;

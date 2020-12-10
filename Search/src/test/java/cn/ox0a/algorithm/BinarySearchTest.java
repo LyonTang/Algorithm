@@ -1,5 +1,6 @@
 package cn.ox0a.algorithm;
 
+import cn.ox0a.algorithm.search.BinarySearch;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
